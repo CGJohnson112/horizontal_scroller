@@ -1,0 +1,68 @@
+* {
+  margin: 0; 
+  padding: 0; 
+}
+body { 
+  font-family: 'Lucida Grande', Helvetica, sans-serif;
+  background: #121212;
+  color: #999; 
+  padding: 20px;
+}
+tr { 
+  vertical-align: top;
+}
+
+.menu {
+  position: fixed;
+  width: 100%;
+}
+
+#container {
+  position: relative;
+  top: 50px;
+}
+.imgo {
+  position: relative;
+  margin: 0 auto;
+  left: 50px;
+}
+
+.imgo img {
+  width: 85%;
+
+}
+
+.post { 
+  width: 500px;
+  padding: 5px;
+  font-size: 3em; 
+  color: white;
+  height: 700px;
+  background-color: pink;
+  font-family: 'Dancing Script', cursive;
+  margin: 10px;
+
+}
+p { 
+  font-size: 1.2em; 
+  margin: 0 0 15px 0; 
+}
+h1 { 
+  font-family: Sans-serif; 
+  font-size: 4.0em;
+  letter-spacing: -1px; 
+  color: #ccc; 
+}
+h2 { 
+  font-family: Sans-Serif; 
+  font-size: 3.0em;
+  letter-spacing: -1px; 
+  color: #ccc; 
+}
+
+footer{
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  text-align: center;
+}
