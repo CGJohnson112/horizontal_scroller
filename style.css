@@ -19,20 +19,23 @@ tr {
 
 #container {
   position: relative;
-  top: 50px;
-}
-.imgo {
-  position: relative;
-  margin: 0 auto;
-  left: 50px;
+  top: 100px;
 }
 
-.imgo img {
-  width: 85%;
 
+
+
+.navbar {
+  overflow: hidden;
+  background-color: pink;
+  width: 100%;
 }
 
-.post { 
+.logo {
+  width: 100px;
+}
+
+/*.post { 
   width: 500px;
   padding: 5px;
   font-size: 3em; 
@@ -42,7 +45,19 @@ tr {
   font-family: 'Dancing Script', cursive;
   margin: 10px;
 
+}*/
+
+.card {
+  width: 500px;
+  padding: 5px;
+  font-size: 3em; 
+  color: white;
+  height: 100%;
+  background-color: pink;
+  font-family: 'Dancing Script', cursive;
+  margin: 10px;
 }
+
 p { 
   font-size: 1.2em; 
   margin: 0 0 15px 0; 
@@ -63,6 +78,25 @@ h2 {
 footer{
   position: fixed;
   width: 100%;
-  bottom: 0;
+  bottom: 30vh;
   text-align: center;
+}
+
+@media only screen and (max-width: 600px){
+  footer {
+    position: fixed;
+    top: 1000px;
+  }
+    .card {
+      width: 400px;
+    }
+
+
+ 
+
+ 
+
+  
+    
+  
 }
